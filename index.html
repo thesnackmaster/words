@@ -28,20 +28,20 @@
   </ol>
   <hr>
   <h3>Work Experience</h3>
-  <table cellspacing ="10">
+  <table cellspacing="10">
     <thead>
       <tr>
         <th>Dates</th>
         <th>Work</th>
       </tr>
-    <tr>
-      <td>2018</td>
-      <td>World Class Space Scavenger</td>
-    </tr>
-    <tr>
-      <td>2020</td>
-      <td>Fastest Toilet Plunger This Side of the Mississippi</td>
-    </tr>
+      <tr>
+        <td>2018</td>
+        <td>World Class Space Scavenger</td>
+      </tr>
+      <tr>
+        <td>2020</td>
+        <td>Fastest Toilet Plunger This Side of the Mississippi</td>
+      </tr>
   </table>
   <hr>
   <h3>Skillz</h3>
@@ -72,43 +72,76 @@
 
   <div id="myData"></div>
   <script>
+    fetch('people.json')
 
-        fetch('people.json')
+      .then(function(response) {
 
-            .then(function (response) {
+        return response.json();
 
-                return response.json();
+      })
 
-            })
+      .then(function(data) {
 
-            .then(function (data) {
+        appendData(data);
 
-                appendData(data);
+      })
 
-            })
+      .catch(function(err) {
 
-            .catch(function (err) {
+        console.log('error: ' + err);
 
-                console.log('error: ' + err);
+      });
 
-            });
+    function appendData(data) {
 
-        function appendData(data) {
+      var mainContainer = document.getElementById("myData");
 
-            var mainContainer = document.getElementById("myData");
+      for (var i = 0; i < data.length; i++) {
 
-            for (var i = 0; i < data.length; i++) {
+        var div = document.createElement("div");
 
-                var div = document.createElement("div");
+        div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
 
-                div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+        mainContainer.appendChild(div);
 
-                mainContainer.appendChild(div);
+      }
 
-            }
+    }
+  </script>
 
-        }
+  <div id="workflowData"></div>
+  <script>
+    fetch('dispatch.json')
 
+      .then(function(response) {
+
+        return response.json();
+
+      })
+
+      .then(function(data) {
+
+        appendData(data);
+
+      })
+
+      .catch(function(err) {
+
+        console.log('error: ' + err);
+
+      });
+
+    function appendData(data) {
+
+      var mainContainer = document.getElementById("workflowData");
+
+      var div = document.createElement("div");
+
+      div.innerHTML = 'Trip: ' + data.displayName + ' ' + data.externalTripId;
+
+      mainContainer.appendChild(div);
+
+    }
   </script>
 
 </body>

@@ -1,0 +1,719 @@
+{
+
+   "trip":{
+
+      "tripId":204138,
+
+      "externalTripId":"494809",
+
+      "userIds":[
+
+         27279
+
+      ],
+
+      "externalUserIds":[
+
+         "WATSON"
+
+      ],
+
+      "externalVehicleIds":[
+
+         "MACH5"
+
+      ],
+
+      "externalTrailerIds":[
+
+         "301"
+
+      ],
+
+      "displayName":"0257856",
+
+      "description":null,
+
+      "tmsTripType":null,
+
+      "sequence":1,
+
+      "scheduledStartTime":"2022-01-26T22:07:00.000Z",
+
+      "scheduledEndTime":"2022-01-27T02:07:00.000Z",
+
+      "scheduledDistanceTotal":619,
+
+      "scheduledDistanceLoaded":null,
+
+      "scheduledDistanceEmpty":619,
+
+      "scheduledWeight":0,
+
+      "scheduledVolume":null,
+
+      "scheduledCount":0,
+
+      "shipper":{
+
+         "companyLocationId":3937733,
+
+         "externalCompanyLocationId":"VUTNIL",
+
+         "name":"(Casing Mill) / Energex",
+
+         "address1":"2900 Joe Davis Industrial Blvd",
+
+         "address2":null,
+
+         "city":"NORMAL",
+
+         "state":"IL",
+
+         "zip":"61761",
+
+         "country":"US",
+
+         "latitude":40.5142,
+
+         "longitude":-88.9906,
+
+         "geofence":{
+
+            "circle":{
+
+               "latitude":40.5142,
+
+               "longitude":-88.9906,
+
+               "exitRadiusMeters":600,
+
+               "enterRadiusMeters":500
+
+            }
+
+         },
+
+         "notes":"I-55S merges w/I-74 XT 160/Market St/Rte 9 EOR TR apx 3/10 mi TR on Wyle to deadend TR on College bldg 1st drwy LHS, Load it!, FCFS",
+
+         "attributes":{
+
+           
+
+         }
+
+      },
+
+      "consignee":{
+
+         "companyLocationId":3761848,
+
+         "externalCompanyLocationId":"USFRNV",
+
+         "name":"(521) Goodman #344",
+
+         "address1":"2801 North Loop West",
+
+         "address2":null,
+
+         "city":"RENO",
+
+         "state":"NV",
+
+         "zip":"89501",
+
+         "country":"US",
+
+         "latitude":39.5233,
+
+         "longitude":-119.8153,
+
+         "geofence":{
+
+            "circle":{
+
+               "latitude":39.5233,
+
+               "longitude":-119.8153,
+
+               "exitRadiusMeters":600,
+
+               "enterRadiusMeters":500
+
+            }
+
+         },
+
+         "notes":", ,",
+
+         "attributes":{
+
+           
+
+         }
+
+      },
+
+      "stops":[
+
+         {
+
+            "stopId":411663,
+
+            "externalStopId":"zz1fqc6qqbo03fcLPT1453",
+
+            "tripId":204138,
+
+            "externalTripId":"494809",
+
+            "sequence":1,
+
+            "location":{
+
+               "companyLocationId":3937733,
+
+               "externalCompanyLocationId":"VUTNIL",
+
+               "name":"(Casing Mill) / Energex",
+
+               "address1":"2900 Joe Davis Industrial Blvd",
+
+               "address2":null,
+
+               "city":"NORMAL",
+
+               "state":"IL",
+
+               "zip":"61761",
+
+               "timezone":"America/Chicago",
+
+               "country":"US",
+
+               "latitude":40.5142,
+
+               "longitude":-88.9906,
+
+               "geofence":{
+
+                  "circle":{
+
+                     "latitude":40.5142,
+
+                     "longitude":-88.9906,
+
+                     "exitRadiusMeters":600,
+
+                     "enterRadiusMeters":500
+
+                  }
+
+               },
+
+               "notes":"I-55S merges w/I-74 XT 160/Market St/Rte 9 EOR TR apx 3/10 mi TR on Wyle to deadend TR on College bldg 1st drwy LHS, Load it!, FCFS",
+
+               "attributes":{
+
+                 
+
+               }
+
+            },
+
+            "tmsStopType":"PU",
+
+            "typeDisplayName":"Pickup",
+
+            "displayName":"(Casing Mill) / Energex",
+
+            "description":"Load it!\n",
+
+            "scheduledDate":"2022-01-26",
+
+            "windowStartTime":"2022-01-26T22:07:00.000Z",
+
+            "windowEndTime":"2022-01-26T22:07:00.000Z",
+
+            "scheduledWeight":0,
+
+            "scheduledVolume":0,
+
+            "scheduledCount":0,
+
+            "forms":[
+
+               {
+
+                  "formId":"801637cf-f7bd-4fd7-9310-a94e25ce5f0d",
+
+                  "version":"2020-12-15T15:50:55.000Z",
+
+                  "prefill":{
+
+                    
+
+                  },
+
+                  "literalPreFillMapping":{
+
+                     "Bill of Lading #":"",
+
+                     "Loaded Trailer #":"301",
+
+                     "Inbound Trailer #":"",
+
+                     "Did you drop the trailer?":"Yes"
+
+                  }
+
+               }
+
+            ],
+
+            "attributes":{
+
+               "Loading":"Load it!",
+
+               "Unloading":"FCFS",
+
+               "Directions":"I-55S merges w/I-74 XT 160/Market St/Rte 9 EOR TR apx 3/10 mi TR on Wyle to deadend TR on College bldg 1st drwy LHS"
+
+            },
+
+            "expectedServiceTime":1
+
+         },
+
+         {
+
+            "stopId":411664,
+
+            "externalStopId":"zz1fqc77iet03fcLPT1453",
+
+            "tripId":204138,
+
+            "externalTripId":"494809",
+
+            "sequence":2,
+
+            "location":{
+
+               "companyLocationId":3745128,
+
+               "externalCompanyLocationId":"EVAMMI",
+
+               "name":"(521) Morrison Supply",
+
+               "address1":"127 E Nakoma",
+
+               "address2":null,
+
+               "city":"MELVINDALE",
+
+               "state":"MI",
+
+               "zip":"48122",
+
+               "timezone":"America/Detroit",
+
+               "country":"US",
+
+               "latitude":42.2789,
+
+               "longitude":-83.1539,
+
+               "geofence":{
+
+                  "circle":{
+
+                     "latitude":42.2789,
+
+                     "longitude":-83.1539,
+
+                     "exitRadiusMeters":600,
+
+                     "enterRadiusMeters":500
+
+                  }
+
+               },
+
+               "notes":"I-75N XT 42 half way on the ramp TR on Seaway Dr flw 2 grdshk(Direction Line), ,",
+
+               "attributes":{
+
+                 
+
+               }
+
+            },
+
+            "tmsStopType":"PU",
+
+            "typeDisplayName":"Pickup",
+
+            "displayName":"(521) Morrison Supply",
+
+            "description":null,
+
+            "scheduledDate":"2022-01-26",
+
+            "windowStartTime":"2022-01-26T21:14:00.000Z",
+
+            "windowEndTime":"2022-01-26T21:14:00.000Z",
+
+            "scheduledWeight":0,
+
+            "scheduledVolume":0,
+
+            "scheduledCount":0,
+
+            "forms":[
+
+               {
+
+                  "formId":"f07cb711-f8c0-41c4-984c-64fb12758f95",
+
+                  "version":"2020-11-12T14:43:36.000Z",
+
+                  "prefill":{
+
+                    
+
+                  },
+
+                  "literalPreFillMapping":{
+
+                     "Load #":"0257856",
+
+                     "Pieces":"",
+
+                     "Seal #":"",
+
+                     "Stop #":"",
+
+                     "Weight":"",
+
+                     "Pallets In":"",
+
+                     "Pallets Out":"",
+
+                     "Driver Load or Unload":"No"
+
+                  }
+
+               }
+
+            ],
+
+            "attributes":{
+
+               "Loading":"",
+
+               "Unloading":"",
+
+               "Directions":"I-75N XT 42 half way on the ramp TR on Seaway Dr flw 2 grdshk(Direction Line)"
+
+            },
+
+            "expectedServiceTime":60
+
+         },
+
+         {
+
+            "stopId":411665,
+
+            "externalStopId":"zz1fqc8harg03fcLPT1453",
+
+            "tripId":204138,
+
+            "externalTripId":"494809",
+
+            "sequence":3,
+
+            "location":{
+
+               "companyLocationId":3782894,
+
+               "externalCompanyLocationId":"HUBSIL",
+
+               "name":"(521) Standard Supply",
+
+               "address1":"1431 Regal Row",
+
+               "address2":null,
+
+               "city":"SOUTH HOLLAND",
+
+               "state":"IL",
+
+               "zip":"60473",
+
+               "timezone":"America/Chicago",
+
+               "country":"US",
+
+               "latitude":32.83388,
+
+               "longitude":-96.879835,
+
+               "geofence":{
+
+                  "circle":{
+
+                     "latitude":32.83388,
+
+                     "longitude":-96.879835,
+
+                     "exitRadiusMeters":600,
+
+                     "enterRadiusMeters":500
+
+                  }
+
+               },
+
+               "notes":"I294S TO 80/94E TOWARDS INDIANA TO HALSTEAD ST GO N @ 2ND SL TR ON 167TH ST TO \"T\" TL ON VINSENNES BLDG 1/4 MLE ON LHS, OFFICE ONLY ---- Grainger p/u's require 24 hr notice of PU -- so they can have product ready.,",
+
+               "attributes":{
+
+                 
+
+               }
+
+            },
+
+            "tmsStopType":"SO",
+
+            "typeDisplayName":"Delivery",
+
+            "displayName":"(521) Standard Supply",
+
+            "description":null,
+
+            "scheduledDate":"2022-01-26",
+
+           "windowStartTime":"2022-01-26T22:36:00.000Z",
+
+            "windowEndTime":"2022-01-26T22:36:00.000Z",
+
+            "scheduledWeight":0,
+
+            "scheduledVolume":0,
+
+            "scheduledCount":0,
+
+            "forms":[
+
+               {
+
+                  "formId":"f07cb711-f8c0-41c4-984c-64fb12758f95",
+
+                  "version":"2020-11-12T14:43:36.000Z",
+
+                  "prefill":{
+
+                    
+
+                  },
+
+                  "literalPreFillMapping":{
+
+                     "Load #":"0257856",
+
+                     "Pieces":"",
+
+                     "Seal #":"",
+
+                     "Stop #":"",
+
+                     "Weight":"",
+
+                     "Pallets In":"",
+
+                     "Pallets Out":"",
+
+                     "Driver Load or Unload":"No"
+
+                  }
+
+               }
+
+            ],
+
+            "attributes":{
+
+               "Loading":"OFFICE ONLY ---- Grainger p/u's require 24 hr notice of PU -- so they can have product ready.",
+
+               "Unloading":"",
+
+               "Directions":"I294S TO 80/94E TOWARDS INDIANA TO HALSTEAD ST GO N @ 2ND SL TR ON 167TH ST TO \"T\" TL ON VINSENNES BLDG 1/4 MLE ON LHS"
+
+            },
+
+            "expectedServiceTime":7
+
+         },
+
+         {
+
+            "stopId":411666,
+
+            "externalStopId":"zz1fqc6qqbv03fcLPT1453",
+
+            "tripId":204138,
+
+            "externalTripId":"494809",
+
+            "sequence":4,
+
+            "location":{
+
+               "companyLocationId":3761848,
+
+               "externalCompanyLocationId":"USFRNV",
+
+               "name":"(521) Goodman #344",
+
+               "address1":"2801 North Loop West",
+
+               "address2":null,
+
+               "city":"RENO",
+
+               "state":"NV",
+
+               "zip":"89501",
+
+               "timezone":"America/Los_Angeles",
+
+               "country":"US",
+
+               "latitude":39.5233,
+
+               "longitude":-119.8153,
+
+               "geofence":{
+
+                  "circle":{
+
+                     "latitude":39.5233,
+
+                     "longitude":-119.8153,
+
+                     "exitRadiusMeters":600,
+
+                     "enterRadiusMeters":500
+
+                  }
+
+               },
+
+               "notes":", ,",
+
+               "attributes":{
+
+                 
+
+               }
+
+            },
+
+            "tmsStopType":"SO",
+
+            "typeDisplayName":"Delivery",
+
+            "displayName":"(521) Goodman #344",
+
+            "description":null,
+
+            "scheduledDate":"2022-01-27",
+
+            "windowStartTime":"2022-01-27T02:07:00.000Z",
+
+            "windowEndTime":"2022-01-27T02:07:00.000Z",
+
+            "scheduledWeight":0,
+
+            "scheduledVolume":0,
+
+            "scheduledCount":0,
+
+            "forms":[
+
+               {
+
+                  "formId":"7b287bd0-40c3-44c7-a5c9-3cf7babc0830",
+
+                  "version":"2020-11-12T14:43:36.000Z",
+
+                  "prefill":{
+
+                    
+
+                  },
+
+                  "literalPreFillMapping":{
+
+                     "Load #":"0257856",
+
+                     "Seal #":"",
+
+                     "Pallets In":"",
+
+                     "Pallets Out":"",
+
+                     "Inbound Trailer":"301",
+
+                     "Odometer Reading":"",
+
+                     "Outbound Trailer":"301",
+
+                     "Driver Load or Unload":"No",
+
+                     "Did you drop the trailer?":"Yes"
+
+                  }
+
+               }
+
+            ],
+
+            "attributes":{
+
+               "Loading":"",
+
+               "Unloading":"",
+
+               "Directions":""
+
+            },
+
+            "expectedServiceTime":90
+
+         }
+
+      ],
+
+      "attributes":{
+
+         "Commodity":"Freight of All Kinds",
+
+         "Trip Type":"Loaded"
+
+      }
+
+   },
+
+   "units":{
+
+      "distance":"miles",
+
+      "weight":"pounds",
+
+      "volume":"cubicfeet"
+
+   }
+
+}
