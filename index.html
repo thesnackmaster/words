@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>🍺Mike's Super Awesome BA Website</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -11,9 +12,10 @@
     <td><img src="laughing-hysterically.gif" alt="Sir Christopher Farley"></td>
     <td>
       <h1> I'm Your Huckleberry</h1>
-      <p> <em>This website is totally <strong>not that cool</strong></em></p>
+      <p> <em>This website is totally <strong>NOT THAT COOL</strong></em></p>
       <br>
-      <p>I'm putting some words on this website so it doesn't look so.....bland</p>
+      <p>Spaceships, Aliens and Stars</p>
+      <p>Words, Shoes and Pumpernickel</p>
     </td>
   </table>
 
@@ -48,19 +50,19 @@
   <table cellspacing="10">
     <tr>
       <td>Can hold my breath for like 47 sec</td>
-      <td>⭐⭐⭐</td>
+      <td>&#128125;&#128125;&#128125;</td>
       <td>Can Juggle 2 scarves for more than 14 sec</td>
-      <td>⭐⭐</td>
+      <td>&#128125;&#128125;🐺</td>
     </tr>
     <tr>
       <td>Can kick a basketball through a fieldgoal if given 4 tries</td>
-      <td>⭐⭐⭐⭐</td>
+      <td>&#128125;&#128125;&#128125;&#128125;</td>
       <td>Hand Stinging High Fives</td>
-      <td>⭐⭐⭐⭐⭐</td>
+      <td>&#128125;&#128125;&#128125;&#128125;&#128125;</td>
     </tr>
     <tr>
       <td>Once scared like 6 fish away when I walked to the edge of a pond</td>
-      <td>⭐⭐⭐⭐⭐</td>
+      <td>&#128125;&#128125;&#128125;&#128125;&#128125;</td>
     </tr>
   </table>
 
@@ -135,11 +137,14 @@
 
       var mainContainer = document.getElementById("workflowData");
 
+      for (var i = 0; i < data.length; i++) {
+
       var div = document.createElement("div");
 
       div.innerHTML = 'Trip: ' + data.displayName + ' ' + data.externalTripId;
 
       mainContainer.appendChild(div);
+      }
 
     }
   </script>
