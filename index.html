@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>🍺Mike's Super Awesome BA Website</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
@@ -139,11 +139,13 @@
 
       for (var i = 0; i < data.length; i++) {
 
-      var div = document.createElement("div");
+        var movementId = data[i].dispatch.movement;
 
-      div.innerHTML = 'Trip: ' + data.displayName + ' ' + data.externalTripId;
+        var div = document.createElement("div");
 
-      mainContainer.appendChild(div);
+        div.innerHTML = 'Trip: ' + data.displayName + ' ' + data.externalTripId;
+
+        mainContainer.appendChild(div);
       }
 
     }
