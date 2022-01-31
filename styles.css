@@ -1,0 +1,26 @@
+
+
+body {
+   background-color: #064663;
+
+}
+
+h1{
+  color: #ECB365
+}
+
+h3{
+  color: #ECB365
+}
+
+hr {
+  border-color: #082032;
+  border-style: none none dotted none;
+  border-width: 7px;
+  height: 0px;
+  width: 5%;
+}
+
+.beers{
+  border-radius: 100px;
+}
