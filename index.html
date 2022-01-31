@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>🍺Mike's Super Awesome BA Website</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -144,7 +144,7 @@
         var load = data[i].trip.displayName
         var div = document.createElement("div");
 
-        div.innerHTML = 'Trip: ' + data.displayName + ' ' + data.externalTripId;
+        div.innerHTML = 'Trip: ' + load.displayName + ' ' + movementId.externalTripId;
 
         mainContainer.appendChild(div);
       }
